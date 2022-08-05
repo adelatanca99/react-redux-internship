@@ -6,6 +6,8 @@ import SongDetail from './SongDetail';
 
 
 import PostList from './PostList';
+import Class1 from './Class1';
+import Functional1 from './Functional1';
 
 
 // const App = () => {
@@ -26,7 +28,9 @@ import PostList from './PostList';
 // };
 
 const App = () => {
-    return <div className='ui cotainer'><PostList /></div>
+    // return <div className='ui cotainer'><PostList /></div>
+    // return <div className='ui cotainer'><Class1 /></div>
+    return <div className='ui cotainer'><Functional1 /></div>
 }
 
 export default App;
